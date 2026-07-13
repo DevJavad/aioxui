@@ -1,0 +1,25 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.envrc/
+.env
+
+# Logs
+log/
+*.log
+
+# IDEs
+.vscode/
+.idea/
+
+# Test files
+test/
+
+# Pypi files
+aioxui.egg-info/
+dist/

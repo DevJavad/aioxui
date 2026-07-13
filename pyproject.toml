@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aioxui"
+version = "0.0.3"
+description = "Async Python SDK for XUI panel API"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+
+authors = [
+    {name = "Javad"}
+]
+
+dependencies = [
+    "aiohttp>=3.9",
+    "pydantic>=2.0",
+    "python-dateutil>=2.9",
+    "jdatetime>=6",
+    "hijridate>=2.6"
+]
+
+keywords = ["xui", "vpn", "api", "async", "sdk"]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/DevJavad/aioxui"
+Repository = "https://github.com/DevJavad/aioxui"
+
+[tool.setuptools]
+packages = ["aioxui"]
+
+[tool.setuptools.package-data]
+aioxui = ["py.typed"]
