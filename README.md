@@ -16,7 +16,7 @@ pip install aioxui
 ```
 
 ```bash
-git clone https://github.com/your-repo/aioxui.git
+git clone https://github.com/DevJavad/aioxui.git
 cd aioxui
 pip install -e .
 ```

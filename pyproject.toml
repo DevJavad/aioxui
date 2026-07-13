@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "aioxui"
-version = "0.0.3"
+version = "0.0.4"
 description = "Async Python SDK for XUI panel API"
 readme = "README.md"
 requires-python = ">=3.10"
